@@ -10,6 +10,7 @@
 		0317335817CB06EB00AC48B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0317335717CB06EB00AC48B3 /* Foundation.framework */; };
 		0317335B17CB06EB00AC48B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0317335A17CB06EB00AC48B3 /* main.m */; };
 		0317335F17CB06EB00AC48B3 /* __1DeepCopyPerson.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0317335E17CB06EB00AC48B3 /* __1DeepCopyPerson.1 */; };
+		0317336717CB074100AC48B3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0317336617CB074100AC48B3 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		0317335A17CB06EB00AC48B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0317335D17CB06EB00AC48B3 /* 8.1DeepCopyPerson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8.1DeepCopyPerson-Prefix.pch"; sourceTree = "<group>"; };
 		0317335E17CB06EB00AC48B3 /* __1DeepCopyPerson.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __1DeepCopyPerson.1; sourceTree = "<group>"; };
+		0317336517CB074100AC48B3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0317336617CB074100AC48B3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				0317335A17CB06EB00AC48B3 /* main.m */,
+				0317336517CB074100AC48B3 /* Person.h */,
+				0317336617CB074100AC48B3 /* Person.m */,
 				0317335E17CB06EB00AC48B3 /* __1DeepCopyPerson.1 */,
 				0317335C17CB06EB00AC48B3 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0317335B17CB06EB00AC48B3 /* main.m in Sources */,
+				0317336717CB074100AC48B3 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
