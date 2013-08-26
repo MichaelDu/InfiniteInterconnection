@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '8.8ArchiveHomeWork2ByPlist' target in the '8.8ArchiveHomeWork2ByPlist' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

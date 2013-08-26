@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031733FE17CB4F3F00AC48B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031733FD17CB4F3F00AC48B3 /* Foundation.framework */; };
+		0317340117CB4F3F00AC48B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0317340017CB4F3F00AC48B3 /* main.m */; };
+		0317340517CB4F3F00AC48B3 /* __8ArchiveHomeWork2ByPlist.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0317340417CB4F3F00AC48B3 /* __8ArchiveHomeWork2ByPlist.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		031733F817CB4F3F00AC48B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0317340517CB4F3F00AC48B3 /* __8ArchiveHomeWork2ByPlist.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		031733FA17CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 8.8ArchiveHomeWork2ByPlist; sourceTree = BUILT_PRODUCTS_DIR; };
+		031733FD17CB4F3F00AC48B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0317340017CB4F3F00AC48B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0317340317CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8.8ArchiveHomeWork2ByPlist-Prefix.pch"; sourceTree = "<group>"; };
+		0317340417CB4F3F00AC48B3 /* __8ArchiveHomeWork2ByPlist.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __8ArchiveHomeWork2ByPlist.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031733F717CB4F3F00AC48B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031733FE17CB4F3F00AC48B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031733F117CB4F3F00AC48B3 = {
+			isa = PBXGroup;
+			children = (
+				031733FF17CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist */,
+				031733FC17CB4F3F00AC48B3 /* Frameworks */,
+				031733FB17CB4F3F00AC48B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031733FB17CB4F3F00AC48B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031733FA17CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031733FC17CB4F3F00AC48B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031733FD17CB4F3F00AC48B3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		031733FF17CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist */ = {
+			isa = PBXGroup;
+			children = (
+				0317340017CB4F3F00AC48B3 /* main.m */,
+				0317340417CB4F3F00AC48B3 /* __8ArchiveHomeWork2ByPlist.1 */,
+				0317340217CB4F3F00AC48B3 /* Supporting Files */,
+			);
+			path = 8.8ArchiveHomeWork2ByPlist;
+			sourceTree = "<group>";
+		};
+		0317340217CB4F3F00AC48B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0317340317CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031733F917CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0317340817CB4F3F00AC48B3 /* Build configuration list for PBXNativeTarget "8.8ArchiveHomeWork2ByPlist" */;
+			buildPhases = (
+				031733F617CB4F3F00AC48B3 /* Sources */,
+				031733F717CB4F3F00AC48B3 /* Frameworks */,
+				031733F817CB4F3F00AC48B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 8.8ArchiveHomeWork2ByPlist;
+			productName = 8.8ArchiveHomeWork2ByPlist;
+			productReference = 031733FA17CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031733F217CB4F3F00AC48B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.redianying;
+			};
+			buildConfigurationList = 031733F517CB4F3F00AC48B3 /* Build configuration list for PBXProject "8.8ArchiveHomeWork2ByPlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 031733F117CB4F3F00AC48B3;
+			productRefGroup = 031733FB17CB4F3F00AC48B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031733F917CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031733F617CB4F3F00AC48B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0317340117CB4F3F00AC48B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0317340617CB4F3F00AC48B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0317340717CB4F3F00AC48B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0317340917CB4F3F00AC48B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "8.8ArchiveHomeWork2ByPlist/8.8ArchiveHomeWork2ByPlist-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0317340A17CB4F3F00AC48B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "8.8ArchiveHomeWork2ByPlist/8.8ArchiveHomeWork2ByPlist-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031733F517CB4F3F00AC48B3 /* Build configuration list for PBXProject "8.8ArchiveHomeWork2ByPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0317340617CB4F3F00AC48B3 /* Debug */,
+				0317340717CB4F3F00AC48B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0317340817CB4F3F00AC48B3 /* Build configuration list for PBXNativeTarget "8.8ArchiveHomeWork2ByPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0317340917CB4F3F00AC48B3 /* Debug */,
+				0317340A17CB4F3F00AC48B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031733F217CB4F3F00AC48B3 /* Project object */;
+}
