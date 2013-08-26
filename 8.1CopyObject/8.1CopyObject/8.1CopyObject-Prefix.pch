@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '8.1CopyObject' target in the '8.1CopyObject' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
