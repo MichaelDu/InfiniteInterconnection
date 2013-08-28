@@ -10,6 +10,8 @@
 		031733FE17CB4F3F00AC48B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031733FD17CB4F3F00AC48B3 /* Foundation.framework */; };
 		0317340117CB4F3F00AC48B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0317340017CB4F3F00AC48B3 /* main.m */; };
 		0317340517CB4F3F00AC48B3 /* __8ArchiveHomeWork2ByPlist.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0317340417CB4F3F00AC48B3 /* __8ArchiveHomeWork2ByPlist.1 */; };
+		0317340D17CB4F4D00AC48B3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0317340C17CB4F4D00AC48B3 /* Person.m */; };
+		0317341017CB504100AC48B3 /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0317340F17CB504000AC48B3 /* Twitter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		0317340017CB4F3F00AC48B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0317340317CB4F3F00AC48B3 /* 8.8ArchiveHomeWork2ByPlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8.8ArchiveHomeWork2ByPlist-Prefix.pch"; sourceTree = "<group>"; };
 		0317340417CB4F3F00AC48B3 /* __8ArchiveHomeWork2ByPlist.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __8ArchiveHomeWork2ByPlist.1; sourceTree = "<group>"; };
+		0317340B17CB4F4D00AC48B3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0317340C17CB4F4D00AC48B3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0317340E17CB504000AC48B3 /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		0317340F17CB504000AC48B3 /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				0317340017CB4F3F00AC48B3 /* main.m */,
+				0317340B17CB4F4D00AC48B3 /* Person.h */,
+				0317340C17CB4F4D00AC48B3 /* Person.m */,
+				0317340E17CB504000AC48B3 /* Twitter.h */,
+				0317340F17CB504000AC48B3 /* Twitter.m */,
 				0317340417CB4F3F00AC48B3 /* __8ArchiveHomeWork2ByPlist.1 */,
 				0317340217CB4F3F00AC48B3 /* Supporting Files */,
 			);
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0317340117CB4F3F00AC48B3 /* main.m in Sources */,
+				0317340D17CB4F4D00AC48B3 /* Person.m in Sources */,
+				0317341017CB504100AC48B3 /* Twitter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

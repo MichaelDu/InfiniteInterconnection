@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Twitter : NSObject
+<NSCoding>
+
+@property(nonatomic, retain)NSArray *comment;
+@property(nonatomic, copy)NSString *content;
+@property(nonatomic, retain)NSDate *createDate;
 
 @end

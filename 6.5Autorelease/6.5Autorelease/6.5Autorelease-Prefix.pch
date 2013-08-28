@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '6.5Autorelease' target in the '6.5Autorelease' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

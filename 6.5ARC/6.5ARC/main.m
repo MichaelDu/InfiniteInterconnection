@@ -1,8 +1,8 @@
 //
 //  main.m
-//  8.8ArchiveHomeWork2ByPlist
+//  6.5ARC
 //
-//  Created by Michael Du on 13-8-26.
+//  Created by Michael Du on 13-8-28.
 //  Copyright (c) 2013年 com.redianying. All rights reserved.
 //
 
@@ -13,7 +13,12 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-//        NSString *path = 
+        // insert code here...
+        NSLog(@"Hello, World!");
+        
+        NSObject *object = [[NSObject alloc] init];
+        [object release];
+
         
     }
     return 0;
