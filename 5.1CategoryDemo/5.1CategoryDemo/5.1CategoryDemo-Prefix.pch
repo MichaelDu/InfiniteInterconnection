@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '5.1CategoryDemo' target in the '5.1CategoryDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
