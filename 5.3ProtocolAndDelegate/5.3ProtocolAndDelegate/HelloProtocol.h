@@ -10,4 +10,11 @@
 
 @protocol HelloProtocol <NSObject>
 
+@required
+-(void)requiredMethod;
+
+@optional
+-(void)optionalMethod1;
+-(void)optinalMethod2;
+
 @end

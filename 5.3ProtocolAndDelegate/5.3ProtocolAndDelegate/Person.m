@@ -10,4 +10,16 @@
 
 @implementation Person
 
+-(void)requiredMethod {
+    NSLog(@"require Method");
+}
+
+- (void)optinalMethod2 {
+    NSLog(@"option method2");
+}
+
+- (void)optionalMethod1{
+    NSLog(@"option method");
+}
+
 @end

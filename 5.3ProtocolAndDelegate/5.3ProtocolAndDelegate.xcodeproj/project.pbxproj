@@ -10,6 +10,7 @@
 		0363261417CDB15D0032E2A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0363261317CDB15D0032E2A7 /* Foundation.framework */; };
 		0363261717CDB15D0032E2A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0363261617CDB15D0032E2A7 /* main.m */; };
 		0363261B17CDB15D0032E2A7 /* __3ProtocolAndDelegate.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0363261A17CDB15D0032E2A7 /* __3ProtocolAndDelegate.1 */; };
+		0363262517CDB3240032E2A7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0363262417CDB3230032E2A7 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,9 @@
 		0363261617CDB15D0032E2A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0363261917CDB15D0032E2A7 /* 5.3ProtocolAndDelegate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5.3ProtocolAndDelegate-Prefix.pch"; sourceTree = "<group>"; };
 		0363261A17CDB15D0032E2A7 /* __3ProtocolAndDelegate.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __3ProtocolAndDelegate.1; sourceTree = "<group>"; };
+		0363262217CDB2F00032E2A7 /* HelloProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloProtocol.h; sourceTree = "<group>"; };
+		0363262317CDB3230032E2A7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0363262417CDB3230032E2A7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				0363261617CDB15D0032E2A7 /* main.m */,
+				0363262317CDB3230032E2A7 /* Person.h */,
+				0363262417CDB3230032E2A7 /* Person.m */,
+				0363262217CDB2F00032E2A7 /* HelloProtocol.h */,
 				0363261A17CDB15D0032E2A7 /* __3ProtocolAndDelegate.1 */,
 				0363261817CDB15D0032E2A7 /* Supporting Files */,
 			);
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0363261717CDB15D0032E2A7 /* main.m in Sources */,
+				0363262517CDB3240032E2A7 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
